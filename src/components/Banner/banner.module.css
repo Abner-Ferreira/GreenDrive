@@ -1,0 +1,63 @@
+.bannerHome {
+    margin-top: 30px;
+    width: 90%;
+    background-image: url(../../assets/BANNER-ECR-TASA-vs2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    height: 150px;
+    margin: 0 5% 3% 5%;
+    cursor: pointer;
+}
+
+@media (min-width: 300px) {
+    .bannerHome {
+        margin: 30px 0 30px 0;
+        height: 70px;
+        margin: 0 5% 3% 5%;
+    
+    }
+}
+
+@media (min-width: 380px) {
+    .bannerHome {
+        height: 80px;
+        margin: 0 5% 3% 5%;
+    
+    }
+}
+
+@media (min-width: 600px ) {
+    .bannerHome {
+        height: 140px;
+        margin: 0 5% 3% 5%;
+    }
+}
+
+@media (min-width: 900px) {
+    .bannerHome {
+        height: 210px;
+        margin: 0 5% 3% 5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bannerHome {
+        height: 280px;
+        margin: 0 5% 3% 5%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .bannerHome {
+        height: 300px;
+        margin: 0 5% 3% 5%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .bannerHome {
+        height: 320px;
+        margin: 0 5% 3% 5%;
+    }
+}

@@ -1,0 +1,79 @@
+/* MOBILE */
+.navMobile {
+    height: 10%;
+    width: 100%;
+    display: block;
+}
+
+.navDesktop {
+    display: none;
+}
+
+.bannerHeaderMobile{
+    width: 100%;
+    background-image: url('../../assets/BANNER-AUTOMOTIVOS---SUSTAINABLE-WEEK---LP---MOBILE 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    height: 200px !important;
+    margin-bottom: 25px;
+}
+
+/* DESKTOP */
+@media (min-width: 600px) {
+
+    .navMobile {
+        display: none;
+    }
+
+    .navDesktop {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .bannerHeader {
+        width: 100%;
+        background-image: url('../../assets/BANNER-AUTOMOTIVOS---SUSTAINABLE-WEEK---LP-com-logo.png');
+        background-size: 100%;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        max-width: 100vw;
+        height: 250px !important;
+    }
+
+    .destkopMenuList {
+        display: grid;
+        grid-template-columns: auto auto auto auto; /*para acrescentar uma  categoria no header digite +1 auto*/
+        width: 100%;
+    }
+
+    .destkopMenuList li {
+        font-weight: bolder;
+        box-shadow: -5px 5px 10px 3px rgb(218, 214, 214);
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .destkopMenuList li,
+    .destkopMenuList li a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(41, 41, 41);
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    .bannerHeader {
+        height: 400px !important;
+    }
+}
