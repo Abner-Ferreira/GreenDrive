@@ -1,7 +1,7 @@
 {
   "name": "automotives",
-  "homepage": "https://www.shop.basf.com/mobilidade/",
-  "version": "0.1.0",
+  "version": "0 .1.0",
+  "homepage": "/greendrive/",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.24.0",

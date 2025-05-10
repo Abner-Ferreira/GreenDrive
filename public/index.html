@@ -2,186 +2,21 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon-tasa.png" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Site do Team Automotive South America da BASF"
+      content="GreenDrive é o seu portal dedicado à inovação e sustentabilidade no setor automotivo. Descubra soluções ecológicas, tecnologias verdes e práticas que estão transformando a mobilidade, com foco em eficiência energética e redução de impacto ambiental. Junte-se à revolução verde do futuro automotivo."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-tasa.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/site.manifest.json" />
 
-    <title>Mobilidade</title>
-    <script
-      id="react-dotenv"
-      src="https://www.shop.basf.com/mobilidade//env.js"
-    ></script>
-
-    <meta
-      name="google-site-verification"
-      content="MUvMGXNueEOCuyNvf7mjKzgimCkw5UKdyeHh98WIoaE"
-    />
-
-    <!-- Google tag (gtag.js) -->
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=AW-801291029"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "AW-801291029", { allow_enhanced_conversions: true });
-    </script>
-
-    <!-- Wisepops  -->
-    <script data-cfasync="false">
-      (function (w, i, s, e) {
-        window[w] =
-          window[w] ||
-          function () {
-            (window[w].q = window[w].q || []).push(arguments);
-          };
-        window[w].l = Date.now();
-        s = document.createElement("script");
-        e = document.getElementsByTagName("script")[0];
-        s.defer = 1;
-        s.src = i;
-        e.parentNode.insertBefore(s, e);
-      })("wisepops", "https://wisepops.net/loader.js?v=2&h=ifkMM4R9aa");
-    </script>
+    <title>GreenDrive</title>
+    <script id="react-dotenv" src="/greendrive//env.js"></script>
   </head>
 
   <body>
-    <script type="text/javascript">
-      var utag_data = {
-        at_title_url: "", //
-        campaign_id: "", // Campaign ID (numeric) or Name (label text) of the campaign identifier
-        campaign_medium: "", // Refers to Campaign Medium in AT Internet  &quot;at_medium&quot;
-        campaign_source: "", // Use source to identify a search engine  newsletter name  or other source. Example: google
-        campaign_term: "", // Used for paid search. Use utm_term to note the keywords for this ad. Example: running+shoes  //  By typing exactly [{keyword}] for a Google Adwords campaign  Google places automatically the purchased keyword (that can be slightly different from the one typed in the search). The same concept can be applied to Yahoo campaigns with [{YSMKEY}]. By typing exactly [{creative}] for Google  Google will place a unique variant ID to be reused in your analysis. The variant is based on an announce group  and won’t be taken into account if it is badly typed or missing.
-        campaign_content: "", // Used for A/B testing and content-targeted ads. Use utm_content to differentiate ads or links that point to the same URL. Examples: logolink or textlink
-        customer_username: "", // Contains the customer's username  e.g. johndoe38.
-        customer_status: "", // Contains the customer's status  e.g. 'logged in'.
-        customer_email: "", // Contains the customer's email.
-        customer_city: "", // Contains the city portion of the customer's address.
-        customer_state: "", // Contains the state portion of the customer's address.
-        customer_zip: "", // Contains the zip code portion of the customer's address.
-        customer_country: "", // Contains the country portion of the customer's address.
-        customer_organization: "", // Company of the customer
-        customer_region: "", // Region of the customer
-        customer_id: "", // Contains the customer's ID.
-        customer_type: "", // Contains the customer's type  e.g. 'bronze member'.
-        event_category: "", // Event category like: ‘rating’, ‘comment’, ‘mailto’, ‘social’, ‘contact’, ‘login’, 'cartadd', 'galleryopen'
-        event_value: "", // Event content like mailto||a.b@basf.com  title||https:twitter.com
-        event_action: "", // Event Action like ‘link click’, ‘button click’, ‘mouse over’, ‘scroll’, ’start video’
-        event_type: "", // Contains one of the following ‘exit‘ ,‘download‘, ‘action‘ or ‘navigation‘
-        page_language: "pt", // Language of the selected page eg. en  de  fr  jp  zh
-        page_country: "br", // Country Instance of the page e.g. global  de  fr  jp
-        page_identifier: "", // Contains the main focus name for the page like main  industry  sub-industry  app
-        page_name: "", // Contains a user-friendly name for the page e.g. title
-        page_category: "", // Contains level 1 menu entry   e.g. ‚who we are‘  ‘innovation‘
-        page_subcategory: "", // Contains level 2 menu entry   e.g. 'organization‘  ‘strategy‘
-        page_type: "", // Contains the main type for the page like landing  news  article  error-page
-        product_id: "", // Contains product ID(s) - multiple values should be comma-separated.
-        product_sku: "", // Contains product SKU(s) - multiple values should be comma-separated.
-        product_name: "", // Contains product name. This should be a full name (e.g. Ucrete DU 200) and not just the brand
-        product_brand: "", // Containts the brand name (e.g. Ucrete) and not the full product name
-        product_category: "", // Contains product category(s) - multiple values should be comma-separated.
-        product_subcategory: "", // Contains product subcategory(s) - multiple values should be comma-separated.
-        product_unit_price: "", // Contains product unit price(s) - multiple values should be comma-separated.
-        product_list_price: "", // Contains product list price(s) before discount - multiple values should be comma-separated.
-        product_quantity: "", // Contains product quantity(s) - multiple values should be comma-separated.
-        product_discount: "", // Containts the discount for a selected product
-        product_od: "", // Containts the BASF Code for the division producing &amp; selling the product (e.g. AP  EB  PM etc.)
-        product_prd: "", // Contains the PRD number
-        product_competitor_product: "", // Product Name of a competitor
-        product_competitor_product_list_price: "", // List Price of the competitors product
-        search_term: "", // Contains the search term or query submitted by a visitor.
-        search_results: "", // Contains the number of results returned with a search query.
-        video_id: "", // Contains the video ID. E.g. YouTube ID
-        video_name: "", // Contains the name of the video.
-        video_duration: "", // Contains the duration of the video. This value should be in seconds.
-        video_offset: "", // Contains the time into a video at which a certain state occurs.
-        video_state: "", // Contains the state of the video  e.g. start  play  pause  milestone  end.
-        video_player: "", // Contains the name of the video player.
-        video_player_version: "", // Contains the version of the video player.
-        video_position: "", // The time in the video when an event occurs.
-        video_milestone: "", // The percentage of the video played: 25  50  75  or 100.
-        video_type: "", //
-        at_level2_numbering: "", // Internal tealium data layer variable for level 2 translation for number to text. Do not use or overwrite in tagging configuration!
-        at_click_level_2: "", //
-        at_custom_object: "", //
-        at_custom_object_click: "", //
-        event_name: "", //
-        at_url_clean: "", //
-        at_forcedCampaign: "", // wt.mc_id from querystring will be translated to ATI campaign tracking
-        campaign_creation: "", //
-        vendor_id_variable: "", // Automatically map domain to vendor ID
-        vendor_id_setting: "", // Automatically map domain to vendor ID
-        single_page_app: "", // Used to Identify single page applications
-        page_load_time: "", //
-        page_privacy_policy: "", // this variable must be ‘true’ only on yourprivacy policy/policies!It   will provide support for future features of the OneTrust cookie banner implementation.
-        customer_industry: "", // Contains the customer’s assigned industry coatings, automotive, agriculture
-        customer_department: "", // Contains the customer’s assigned department procurement, quality management, research and development
-        onetrust_domain_id: "", // Cookie Compliance / OneTrust Domain ID
-        visitorContinent: "", //
-        visitorCountry: "", //
-        visitorCity: "", //
-        visitorState: "", //
-        visitorStateName: "", //
-        visitorZipcode: "", //
-        visitorTimeZone: "", //
-        website_governance_isPrivacyStatement: "", // &quot;true&quot; if this page is a PRIVACY STATEMENT
-        b_rui: "", // Contains the ID/Key Set through Query Paramter (Piano Campaign)
-        page_region: "South America", // Contains the specified region of the page. Contains the BASF region for which the website is intended.
-        search_page_consulted: "", // Contains the number of the result page consulted following a search in your internal engine
-        product_variant: "", // Contains the variant of the product.
-        product_pricetaxincluded: "", // Contains the price of the product including the taxes.
-        product_pricetaxfree: "", // Contains the price of the product without including the taxes.
-        product_currency: "", // Contains the currency (ISO 4217).
-        product_stock: "", // Contains a boolean that indicates if the product is in stock.
-        product_cartcreation: "", // Cart created by this product addition? (boolean).
-        product_chemistry_type: "", // Product composition (Chemical).
-        product_industry: "", // t should contain the name of the industry. (Only use if product is used in several industries.)
-        customer_od: "", // Contains the visitor assigned Operational Devision
-        page_sub_subcategory: "", // Contains a user-friendly page category/menu level3 e.g. 'career'
-        basf_internal_visitor: "", // [11:30] Steffen Schlindwein Contains &quot;yes&quot; in case the visitor use a BASF VPN connection
-        Google_Analytics_ID: "", // Google_Analytics_ID
-        iq_event_id: "", // A system variable that contains the ID of an iQ event and used to fire a tag when an event happens.
-        tealium_event: "", // Contains the Tealium event.
-        video_platform: "", // Contains the name of the video player.
-        video_length: "", // Contains the duration of the video. This value should be in seconds.
-        video_playhead: "", // Contains the time into a video at which a certain state occurs.
-        Modal_Visible: "", // Modal_Visible
-        percent_visible: "", //
-        duration: "", //
-        Google_Analytics_4_ID: "", // Google_Analytics_4_ID
-      };
-
-      window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};
-      window.utag_cfg_ovrd.noview = true;
-    </script>
-
-    <!-- Loading script asynchronously -->
-    <script type="text/javascript">
-      (function (a, b, c, d) {
-        a = "https://tags.tiqcdn.com/utag/basf/southamerica/prod/utag.js";
-        b = document;
-        c = "script";
-        d = b.createElement(c);
-        d.src = a;
-        d.type = "text/java" + c;
-        d.async = true;
-        a = b.getElementsByTagName(c)[0];
-        a.parentNode.insertBefore(d, a);
-      })();
-    </script>
-
     <noscript
       >Você precisa habilitar o JavaScript para rodar este aplicativo.</noscript
     >

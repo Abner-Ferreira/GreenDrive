@@ -3,7 +3,7 @@
 }
 
 .ativado {
-    color: #004A96 !important;
+    color: #1B4332 !important;
     text-decoration: underline;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .ativado:hover, .desativado:hover{
-    color: #004A96 !important;
+    color: #1B4332 !important;
     text-decoration: underline;
     font-weight: bold;
 }

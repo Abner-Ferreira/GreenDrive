@@ -1,53 +1,28 @@
-import React, { useState, useEffect } from 'react'
-import client from '../../client'
-import BlockContent from "@sanity/block-content-to-react"
-import styles from './conteudos.module.css'
+import React, { useState } from 'react'
 import { Helmet } from 'react-helmet'
-import { useUtag } from '../../context/utag'
+// import client from '../../client'
+import styles from './conteudos.module.css'
+import logo from '../../assets/logo-transparente.png'
 
 export default function Conteudos() {
 
     const [posts, setPosts] = useState([])
     const [loading, setLoading] = useState(false)
 
-    const utag = useUtag();
-    useEffect(() => {
-
-        utag.view({ page_name: "Mobilidade | Conteúdos", page_language: "pt", page_identifier: "content page", page_category: "conteúdos", });
-
-        // Faz uma requisão para a API do Sanity
-        client.fetch(
-            `*[_type == "post"] | order(publishedAt) [0...100]{
-                
-                title,
-                slug,
-                body,
-                author,
-                publishedAt,
-                mainImage {
-                    asset -> {
-                        _id,
-                        url
-                    },
-                    alt
-                }
-            }`
-        )
-            .then(data => setPosts(data))
-            .catch(e => console.error(e))
-
-        setTimeout(() => { setLoading(true) }, 3000)
-    }, [utag])
-
 
     return (
         <>
             <Helmet>
-                <title>Mobilidade | Conteúdos</title>
+                <title>GreenDrive | Conteúdos</title>
             </Helmet>
             <section className={styles.conteudosContainer}>
-                <h3>Aproveite os nossos <b>conteúdos!</b></h3>
-                <h5>Fique por dentro de conteúdos com as soluções e tendências do ecossistema da mobilidade</h5>
+
+                <div className={styles.containerEmbreve}>
+                    <img src={logo} alt="logo greendrive" />
+                    <h1>Em breve...</h1>
+                </div>
+                {/* <h3>Aproveite os conteúdos do <b>GreenDrive!</b></h3>
+                <h5>Fique por dentro das soluções sustentáveis e das tendências que estão transformando o futuro da mobilidade.</h5>
 
                 {loading ?
                     <div className={styles.postContainer}>
@@ -76,7 +51,7 @@ export default function Conteudos() {
                         <div id={styles.loadingProduct}></div>
                         <p>Carregando conteúdos</p>
                     </div>
-                }
+                } */}
             </section>
         </>
     )

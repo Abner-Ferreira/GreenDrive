@@ -29,7 +29,7 @@ export default function Header() {
                     <Navbar expand={false} className="bg-body-tertiary mb-3" expanded={clicado} onClick={clicouHeader}  >
                         <Container fluid>
                             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />
-                            <Navbar.Brand href="#" >Soluções para Mobilidade</Navbar.Brand>
+                            <Navbar.Brand href="#" >Soluções para greendrive</Navbar.Brand>
                             <Navbar.Offcanvas
                                 id={`offcanvasNavbar-expand-${false}`}
                                 aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}
@@ -38,13 +38,13 @@ export default function Header() {
 
                                 <Offcanvas.Header closeButton>
                                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`} dir='left'>
-                                        Soluções para Mobilidade
+                                        Soluções para greendrive
                                     </Offcanvas.Title>
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>
                                     <Nav className="justify-content-end flex-grow-1 pe-3" onClick={clicouHeader}>
                                         <Nav.Link>
-                                            <NavLink to="/mobilidade/" end>
+                                            <NavLink to="/greendrive/" end>
                                                 {({ isActive }) => (
                                                     <span className={isActive ? "ativado" : "desativado"}>HOME</span>
                                                 )}
@@ -52,7 +52,7 @@ export default function Header() {
                                         </Nav.Link>
 
                                         <Nav.Link>
-                                            <NavLink to="/mobilidade/produtos" onClick={clicouHeader}>
+                                            <NavLink to="/greendrive/produtos" onClick={clicouHeader}>
                                                 {({ isActive }) => (
                                                     <span className={isActive ? "ativado" : "desativado"}>PRODUTOS</span>
                                                 )}
@@ -60,21 +60,12 @@ export default function Header() {
                                         </Nav.Link>
 
                                         <Nav.Link>
-                                            <NavLink to="/mobilidade/conteudos" onClick={clicouHeader}>
+                                            <NavLink to="/greendrive/conteudos" onClick={clicouHeader}>
                                                 {({ isActive }) => (
                                                     <span className={isActive ? "ativado" : "desativado"}>CONTEÚDOS</span>
                                                 )}
                                             </NavLink>
                                         </Nav.Link>
-
-                                        <Nav.Link>
-                                            <NavLink to="/mobilidade/programa-circularidade" onClick={clicouHeader}>
-                                                {({ isActive }) => (
-                                                    <span className={isActive ? "ativado" : "desativado"}>CIRCULARIDADE</span>
-                                                )}
-                                            </NavLink>
-                                        </Nav.Link>
-
 
                                     </Nav>
 
@@ -91,7 +82,7 @@ export default function Header() {
 
                         {/* Menu da HOME */}
                         <li>
-                            <NavLink to="/mobilidade/" end>
+                            <NavLink to="/greendrive/" end>
                                 {({ isActive }) => (
                                     <span className={isActive ? "ativado" : "desativado"}>HOME</span>
                                 )}
@@ -100,7 +91,7 @@ export default function Header() {
 
                         {/* Menu da PRODUTOS */}
                         <li>
-                            <NavLink to="/mobilidade/produtos" >
+                            <NavLink to="/greendrive/produtos" >
                                 {({ isActive }) => (
                                     <span className={isActive ? "ativado" : "desativado"}>PRODUTOS</span>
                                 )}
@@ -109,22 +100,12 @@ export default function Header() {
 
                         {/* Menu da CONTEÚDOS */}
                         <li>
-                            <NavLink to="/mobilidade/conteudos">
+                            <NavLink to="/greendrive/conteudos">
                                 {({ isActive }) => (
                                     <span className={isActive ? "ativado" : "desativado"}>CONTEÚDOS</span>
                                 )}
                             </NavLink>
                         </li>
-
-                        {/* Menu da CIRCULAÍ */}
-                        <li>
-                            <NavLink to="/mobilidade/programa-circularidade">
-                                {({ isActive }) => (
-                                    <span className={isActive ? "ativado" : "desativado"}>PROGRAMA DE CIRCULARIDADE</span>
-                                )}
-                            </NavLink>
-                        </li>
-
 
                     </ul>
                 </nav>

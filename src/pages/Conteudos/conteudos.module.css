@@ -33,11 +33,25 @@
 
 #loadingProduct{
     border: 5px solid #e1e2e4;
-    border-left: 5px solid #004b96;
+    border-left: 5px solid #1B4332;
     border-radius: 50%;
     height: 30px;
     width: 30px;
     animation: loadingAnimation infinite .7s linear
+}
+
+.containerEmbreve{
+    height: 68vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.containerEmbreve img{
+    width: 10%;
 }
 
 @keyframes loadingAnimation {
@@ -82,7 +96,7 @@
     border: none;
     font-size: 16px;
     text-decoration: none;
-    background-color: #004a96;
+    background-color: #1B4332;
     padding: 10px;
     width: 60%;
     margin: 5% 0;
@@ -111,6 +125,15 @@
         width: 90% ;
         margin: 0 0 30px 5%;
         text-align: justify;
+    }
+
+    .containerEmbreve{
+        height: 70vh;
+        gap: 20px;
+    }
+    
+    .containerEmbreve img{
+        width: 30%;
     }
 }
 
@@ -169,7 +192,7 @@
         border: none;
         font-size: 16px;
         text-decoration: none;
-        background-color: #004a96;
+        background-color: #1B4332;
         padding: 10px;
         width: 60%;
         margin: 5% 0;
@@ -180,6 +203,15 @@
         height: 100% ;
         color: #fff;
         font-weight: bold;
+    }
+
+    .containerEmbreve{
+        height: 75vh;
+        gap: 20px;
+    }
+    
+    .containerEmbreve img{
+        width: 20%;
     }
 }
 
@@ -229,5 +261,14 @@
     .textoPost p {
         width: 88%;
         margin-top: -5px;
+    }
+
+    .containerEmbreve{
+        height: 50vh;
+        gap: 20px;
+    }
+    
+    .containerEmbreve img{
+        width: 10%;
     }
 }

@@ -11,7 +11,7 @@
 }
 
 .homeSubtitle {
-    color: #004A96;
+    color: #1B4332;
 }
 
 .homeTextSubtitle {
@@ -33,7 +33,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: #dae4ef;
+    background-color: #95d5b26c;
     margin: 5% 0;
 }
 
@@ -84,33 +84,8 @@
 }
 
 .spanAzul {
-    color: #004A96;
+    color: #1B4332;
     font-weight: bold;
-}
-
-.carroVirtual {
-    width: 100%;
-    background-image: url(../../assets/Automovel.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100%;
-    height: 150px;
-
-}
-
-.descCarroVirtual {
-    width: 90%;
-}
-
-.descCarroVirtual h1 {
-    font-size: 14px;
-    text-align: justify;
-    padding: 20px 0 0 10px;
-}
-
-.descCarroVirtual h1 a {
-    color: #000;
-    text-decoration: underline;
 }
 
 @media (min-width: 600px ) {
@@ -140,7 +115,7 @@
 
     .containerVideos h1 {
         font-size: 32px;
-        color: #004A96;
+        color: #1B4332;
         font-weight: bolder;
         text-align: center !important;
         width: 100%;
@@ -178,32 +153,6 @@
         font-size: 18px;
     }
 
-    .carroVirtual {
-        margin: 8% 0 0 0;
-        padding: 3% 6%;
-        text-align: right;
-        background-image: url(../../assets/Automovel.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 100%;
-        height: 350px;
-    }
-
-    .descCarroVirtual {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 500px;
-        font-size: 20px;
-        line-height: 1.3;
-    }
-
-    .descCarroVirtual h1 {
-        font-size: 28px;
-        font-weight: bold;
-        text-align: left;
-    }
 }
 
 @media (min-width: 1300px) {
@@ -228,20 +177,4 @@
         width: 680px !important;
     }
 
-
-    .carroVirtual {
-        margin: 2% 0 0 0;
-        padding: 3% 6%;
-        text-align: right;
-        background-image: url(../../assets/Automovel.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 100%;
-        height: 450px;
-    }
-    .descCarroVirtual h1 {
-        font-size: 24px;
-        font-weight: bold;
-        text-align: left;
-    }
 }

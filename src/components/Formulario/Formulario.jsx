@@ -64,7 +64,7 @@ export default function Formulario() {
             height="60"
             width="60"
             radius="9"
-            color="#004a96"
+            color="#1B4332"
             ariaLabel="three-dots-loading"
             wrapperStyle={{}}
             wrapperClassName=""

@@ -18,7 +18,7 @@
     border: none;
     font-size: 13px;
     text-decoration: none;
-    background-color: #004a96;
+    background-color: #1B4332;
     color: #fff;
     font-weight: bold;
     padding: 5px;
@@ -42,13 +42,19 @@
     color: #000;
 }
 
+.inputFormsTermos label a{
+    color: #1B4332;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .inputForms label span {
     color: #f00;
 }
 
 .inputForms input:focus {
-    border: 1px solid #004A96 !important;
-    outline: #004A96;
+    border: 1px solid #1B4332 !important;
+    outline: #1B4332;
 }
 
 .inputForms input::placeholder {
@@ -61,7 +67,7 @@
     background-color: #d9d9d9;
 }
 .produtos::-webkit-scrollbar-thumb{
-    background-color: #004a96;
+    background-color: #1B4332;
 }
 
 .formDropdown {
@@ -103,8 +109,7 @@
         align-items: flex-start;
         justify-content: space-evenly;
         flex-direction: row-reverse;
-        /* background-color: #00793A; */
-        background-color: #004A96;
+        background-color: #1B4332;
         color: #fff;
         font-weight: bold;
         width: 100%;
@@ -117,8 +122,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #21a0d2;
-        /* background-color: #65AC1E; */
+        background-color: #95D5B2;
         border-radius: 50%;
         width: 40px;
         height: 40px;
@@ -223,8 +227,8 @@
     }
 
     .inputForms input:focus {
-        border: 2px solid #004A96 !important;
-        outline: #004A96;
+        border: 2px solid #1B4332 !important;
+        outline: #1B4332;
     }
 }
 

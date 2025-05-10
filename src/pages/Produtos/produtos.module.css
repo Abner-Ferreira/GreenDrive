@@ -17,7 +17,7 @@
 
 #loadingProduct{
     border: 5px solid #e1e2e4;
-    border-left: 5px solid #004b96;
+    border-left: 5px solid #1B4332;
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -42,12 +42,12 @@
 }
 
 .btnFiltros:hover {
-    background-color: #004b9624;
+    background-color: #95d5b26c;
     color: rgb(41, 41, 41);
 }
 
 .btnFiltros:focus {
-    background-color: #004b9624;
+    background-color: #95d5b26c;
     color: rgb(41, 41, 41);
 }
 

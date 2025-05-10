@@ -1,0 +1,42 @@
+# Dependências
+/node_modules
+
+# Produção
+/build
+/dist
+
+# Ambiente
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+/.parcel-cache
+/.turbo
+/.next
+/.cache
+/.vite
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Teste
+coverage
+jest-cache
+jest-testing*
+
+# Outros
+*.local
+*.log

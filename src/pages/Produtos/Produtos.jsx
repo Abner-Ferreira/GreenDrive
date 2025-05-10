@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Produto from '../../components/Produto/Produto'
-import styles from './produtos.module.css'
-import { todosProdutos } from '../../services/todosProdutos'
+import { Helmet } from 'react-helmet'
 import Formulario from '../../components/Formulario/Formulario'
-import { Helmet } from 'react-helmet';
-import { useUtag } from '../../context/utag'
+import Produto from '../../components/Produto/Produto'
+import { todosProdutos } from '../../services/todosProdutos'
+import styles from './produtos.module.css'
 
 export default function Produtos() {
 
@@ -20,26 +19,23 @@ export default function Produtos() {
         }
     }
 
-    const utag = useUtag();
     const [loading, setLoading] = useState(false)
     useEffect(() => {
-        // Explicitly handle page views
-        utag.view({ page_name: "Mobilidade | Produtos", page_language: "pt", page_identifier: "product page", page_category: "produtos", });
         setTimeout(() => {setLoading(true)}, 3000)
-    }, [utag]);
+    }, []);
 
     return (
         <>
             <Helmet>
-                <title>Mobilidade | Produtos</title>
+                <title>GreenDrive | Produtos</title>
 
             </Helmet>
 
 
             <div className={styles.introducaoFiltros}>
-                <p>Conheça as soluções BASF para a indústria da mobilidade. Aqui você terá acesso a informações como aplicação e dados técnicos dos produtos. Alguns dos nossos materiais estão disponível para compra online e você poderá acessar a página através dos links que disponibilizamos. </p>
-                <p>Ficou interessado em algum produto e quer obter maiores informações clique no botão <b>“Tenho Interesse”</b>. </p>
-                <p>Os itens selecionados aparecerão na sua <b>"Lista de Interesse"</b> que estará disponível no final desta página. Basta preencher seus dados, revisar os produtos selecionados e clicar no botão <b>“Enviar”</b>. A nossa equipe entrará em contato para fornecer mais detalhes</p>
+                <p>Aqui você encontra informações detalhadas sobre aplicações e especificações técnicas de diversos produtos voltados para o setor automotivo sustentável. Alguns dos materiais estão disponíveis para compra online e você pode acessar suas páginas diretamente pelos links fornecidos. </p>
+                <p>Se tiver interesse em algum produto e quiser saber mais, clique no botão <b>“Tenho Interesse”</b>. </p>
+                <p>Todos os itens selecionados serão adicionados à sua <b>"Lista de Interesse"</b> disponível ao final da página. Basta preencher seus dados, revisar os produtos escolhidos e clicar em <b>“Enviar”</b>. Nossa equipe entrará em contato para fornecer mais detalhes e tirar suas dúvidas.</p>
             </div>
 
             <div className={styles.filtros}>
@@ -47,16 +43,16 @@ export default function Produtos() {
                     <button onClick={() => filtro('Todos')} className={styles.btnFiltros}>Todos</button>
                 </div>
                 <div>
-                    <button onClick={() => filtro('Polímeros')} className={styles.btnFiltros}>Polímeros</button>
+                    <button onClick={() => filtro('Materiais')} className={styles.btnFiltros}>Materiais</button>
                 </div>
                 <div>
                     <button onClick={() => filtro('Fluídos')} className={styles.btnFiltros}>Fluídos</button>
                 </div>
                 <div>
-                    <button onClick={() => filtro('Sistema-de-exaustão')} className={styles.btnFiltros}>Sistema de Exaustão</button>
+                    <button onClick={() => filtro('Eletromobilidade')} className={styles.btnFiltros}>Eletromobilidade</button>
                 </div>
                 <div>
-                    <button onClick={() => filtro('Processos-de-pintura')} className={styles.btnFiltros}>Processos de Pintura</button>
+                    <button onClick={() => filtro('EcoPerformance')} className={styles.btnFiltros}>EcoPerformance</button>
                 </div>
             </div>
             {loading ? <Produto filtro={produtoFiltrado} />
