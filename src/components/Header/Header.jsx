@@ -44,7 +44,7 @@ export default function Header() {
                                 <Offcanvas.Body>
                                     <Nav className="justify-content-end flex-grow-1 pe-3" onClick={clicouHeader}>
                                         <Nav.Link>
-                                            <NavLink to="/greendrive/" end>
+                                            <NavLink to="/" end>
                                                 {({ isActive }) => (
                                                     <span className={isActive ? "ativado" : "desativado"}>HOME</span>
                                                 )}
@@ -52,7 +52,7 @@ export default function Header() {
                                         </Nav.Link>
 
                                         <Nav.Link>
-                                            <NavLink to="/greendrive/produtos" onClick={clicouHeader}>
+                                            <NavLink to="/produtos" onClick={clicouHeader}>
                                                 {({ isActive }) => (
                                                     <span className={isActive ? "ativado" : "desativado"}>PRODUTOS</span>
                                                 )}
@@ -60,7 +60,7 @@ export default function Header() {
                                         </Nav.Link>
 
                                         <Nav.Link>
-                                            <NavLink to="/greendrive/conteudos" onClick={clicouHeader}>
+                                            <NavLink to="/conteudos" onClick={clicouHeader}>
                                                 {({ isActive }) => (
                                                     <span className={isActive ? "ativado" : "desativado"}>CONTEÚDOS</span>
                                                 )}
@@ -82,7 +82,7 @@ export default function Header() {
 
                         {/* Menu da HOME */}
                         <li>
-                            <NavLink to="/greendrive/" end>
+                            <NavLink to="/" end>
                                 {({ isActive }) => (
                                     <span className={isActive ? "ativado" : "desativado"}>HOME</span>
                                 )}
@@ -91,7 +91,7 @@ export default function Header() {
 
                         {/* Menu da PRODUTOS */}
                         <li>
-                            <NavLink to="/greendrive/produtos" >
+                            <NavLink to="/produtos" >
                                 {({ isActive }) => (
                                     <span className={isActive ? "ativado" : "desativado"}>PRODUTOS</span>
                                 )}
@@ -100,7 +100,7 @@ export default function Header() {
 
                         {/* Menu da CONTEÚDOS */}
                         <li>
-                            <NavLink to="/greendrive/conteudos">
+                            <NavLink to="/conteudos">
                                 {({ isActive }) => (
                                     <span className={isActive ? "ativado" : "desativado"}>CONTEÚDOS</span>
                                 )}

@@ -9,10 +9,10 @@ export default function Rotas() {
   return (
     <>
       <Routes>
-        <Route path='/greendrive/'  element={<Home />} />
-        <Route path='/greendrive/produtos' element={<Produtos />} />
-        <Route path='/greendrive/conteudos' element={<Conteudos />} />
-        <Route path='/greendrive/thank-you' element={<ThankYou/>} />
+        <Route path='/'  element={<Home />} />
+        <Route path='/produtos' element={<Produtos />} />
+        <Route path='/conteudos' element={<Conteudos />} />
+        <Route path='/thank-you' element={<ThankYou/>} />
 
       </Routes>
     </>
