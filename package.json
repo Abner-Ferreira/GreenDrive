@@ -1,7 +1,6 @@
 {
   "name": "automotives",
   "version": "0 .1.0",
-  "homepage": "/greendrive/",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.24.0",
