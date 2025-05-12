@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 🌱 GreenDrive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**GreenDrive** is a fictional platform created to promote solutions and content focused on **automotive sustainability**. Entirely developed with AI-generated text, the project explores innovative concepts in electric mobility, energy efficiency, and green technologies.
 
-## Available Scripts
+## 🚗 About the Project
 
-In the project directory, you can run:
+GreenDrive is an informative and conceptual website that simulates an ecosystem focused on sustainable mobility. The goal is to showcase content, fictional products, and features that exemplify how technology can contribute to a greener automotive future.
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔋 **Sustainable Product Catalog**  
+  Presentation of fictional products such as:
+  - **FROVIA® C2**: non-toxic, anti-corrosive refrigerant fluid.  
+  - **ELETRION® PX**: high-density flexible conductor for electric vehicles.  
+  - **ECOSENSE® X1**: real-time monitoring system for consumption and emissions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📈 **Educational and Informative Content**  
+  Articles, texts, and sections featuring solutions and trends in the sustainable automotive sector.
 
-### `npm test`
+- 🌍 **Clean and Responsive Design**  
+  User-friendly interface focused on accessibility, performance, and intuitive navigation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚙️ **AI-Generated Content**  
+  All website text and content were generated with artificial intelligence, reinforcing the project's experimental and creative nature.
 
-### `npm run build`
+## 🛠️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: ReactJS with Hooks and Context API  
+- **Design**: Minimalist layout focused on UX and responsiveness  
+- **Content**: Text generated with the help of AI  
+- **Images**: Copyright-free visual resources
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Purpose
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To creatively and educationally demonstrate how technology can be applied to automotive sustainability — both visually and conceptually — combining innovation, ecological awareness, and communication.
 
-### `npm run eject`
+## 📄 License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is fictional and intended for educational and demonstrative purposes only.  
+All text, product names, and images used are generic and do not correspond to real commercial items.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
