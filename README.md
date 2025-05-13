@@ -2,6 +2,10 @@
 
 **GreenDrive** is a fictional platform created to promote solutions and content focused on **automotive sustainability**. Entirely developed with AI-generated text, the project explores innovative concepts in electric mobility, energy efficiency, and green technologies.
 
+## 📸 Project Preview
+
+![Easybank Full Page Screenshot](/src/assets/greendrive-fullpage.png)  
+
 ## 🚗 About the Project
 
 GreenDrive is an informative and conceptual website that simulates an ecosystem focused on sustainable mobility. The goal is to showcase content, fictional products, and features that exemplify how technology can contribute to a greener automotive future.
